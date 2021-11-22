@@ -1,0 +1,71 @@
+{
+  "name": "tokens",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@s-ui/lint": "^3.14.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-jest": "^26.6.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-react-docgen": "^4.1.0",
+    "babel-plugin-styled-components": "^2.0.1",
+    "babel-polyfill": "^6.26.0",
+    "esm": "^3.2.25",
+    "file-system": "^2.2.2",
+    "husky": "^4.2.5",
+    "jest": "26.6.0",
+    "jest-styled-components": "^7.0.2",
+    "node-fetch": "^2.6.0",
+    "react-app-rewired": "^2.1.8",
+    "style-dictionary": "^2.8.3"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-app-rewire-styled-components": "^3.0.2",
+    "react-dom": "^16.13.1",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.1.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "tokens": "npm run tokens:api && npm run tokens:build",
+    "tokens:api": "node ./bin/figma-tokens",
+    "tokens:build": "style-dictionary build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "babel-plugin-styled-components",
+      "react-docgen"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
