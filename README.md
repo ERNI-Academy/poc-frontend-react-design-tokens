@@ -1,42 +1,46 @@
-# About {{ Name }}
-ERNI Academy StarterKit, PoC, or Gidelines. This is an about description of your repository.
+# React Design Tokens
+<h4>An awesome design system for your products and experiences!</h4>
 
 ## Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+We use the best tools to improve our workflow, allowing us to create an awesome library of components!
 
-- [Tools A](https://example.com)
-- [Framework B](https://example.com)
-- [Project C](https://example.com)
-
-# Features
-- Be awesome
-- Make things faster
+- [ReactJs](https://facebook.github.io/react/)
+- Type checking with [PropTypes](https://www.npmjs.com/package/prop-types)
+- [styled-components](https://styled-components.com/) for styling components and application
+- Compiling of modern JavaScript with [Babel](https://github.com/babel/babel) and bundling with [Webpack](https://webpack.js.org/)
+- [Jest](https://jestjs.io/) and [Testing library](https://testing-library.com/) for unit/ui testing
+- Code linting using [Eslint](https://github.com/eslint/eslint)
 
 # Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+To get started you need to meet the prerequisites, and then follow the installation instructions.
 
+#### Figma design tokens example
+
+**Figma file:** [https://www.figma.com/file/IGr2xoqcZX91CU7CDr4ZsI](https://www.figma.com/file/IGr2xoqcZX91CU7CDr4ZsI)
+
+#### Installing
+
+You can clone our Git repository:
+
+`$ git clone https://github.com/ERNI-Academy/react-design-tokens.git`
+
+#### Wiring up your development environment
+
+Hooking it up is as easy as running:
+
+`$ npm install`
+
+This command will install all the required dependencies. Please note that `npm install` is only required on your first start, or in case of updated dependencies.
+
+#### Initializing App
+
+`$ npm start`
+
+#### Generate design tokens as variables
+
+`$ npm run tokens`
 ## Prerequisites
 This is an example of how to list things you need to use the software and how to install them.
-
-## Installation
-Installation instructions {{ Name }} by running:
-
-1. Clone the repo
-   ```sh 
-   git clone https://github.com/ERNI-Academy/Project-Name.git
-   ```
-2. Install packages
-    ```sh
-    npm install
-    ```
-3. Configure
-    ```JS
-    const API_KEY = 'ENTER YOUR API';
-    ```
-
-# Contributing
-
-Please see our [Contribution Guide](CONTRIBUTING.md) to learn how to contribute.
 
 # License
 
