@@ -1,13 +1,11 @@
 import styled, {css} from 'styled-components'
 
 export const Wrapper = styled.h1`
-  font-size: ${props => {
-    debugger;
-    return props.theme.typography.heading.normal.fontSize
-  }};
+  font-size: ${props => props.theme.typography.heading.normal.fontSize};
   line-height: ${props => props.theme.typography.heading.normal.lineHeight};
   font-weight: ${props => props.theme.typography.heading.normal.fontWeight};
   margin: 0 0 ${props => props.theme.spacing.md};
+  color: ${props => props.theme.colors.neutral.percent80};
 
   ${props =>
     props.size === 'big' &&

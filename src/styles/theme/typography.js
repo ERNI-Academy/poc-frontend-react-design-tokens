@@ -7,6 +7,7 @@ const typography = {
   heading: {
     big: {
       fontSize: tokens.typography.headingBig.fontSize.value,
+      fontFamily: tokens.typography.headingBig.fontFamily.value,
       lineHeight: tokens.typography.headingBig.lineHeight.value,
       fontWeight: tokens.typography.headingBig.fontWeight.value
     },
@@ -24,7 +25,9 @@ const typography = {
   body: {
     normal: {
       fontSize: tokens.typography.bodyNormal.fontSize.value,
-      lineHeight: tokens.typography.bodyNormal.lineHeight.value
+      fontFamily: tokens.typography.bodyNormal.fontFamily.value,
+      lineHeight: tokens.typography.bodyNormal.lineHeight.value,
+      fontWeight: tokens.typography.bodyNormal.fontWeight.value
     }
   }
 }

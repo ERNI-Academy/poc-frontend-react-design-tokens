@@ -12,7 +12,7 @@
     "@storybook/addon-knobs": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "babel-jest": "^26.6.0",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "8.1.0",
     "babel-plugin-react-docgen": "^4.1.0",
     "babel-plugin-styled-components": "^2.0.1",
     "babel-polyfill": "^6.26.0",
@@ -35,7 +35,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.3",
     "styled-components": "^5.1.0",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "start": "react-app-rewired start",

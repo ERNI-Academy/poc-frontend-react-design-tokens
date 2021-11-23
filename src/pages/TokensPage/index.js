@@ -10,21 +10,19 @@ const TokensPage = () => (
       <section className="intro">
         <div className="wrap">
           <div className="title">
-            <Heading type="span">Tokens API</Heading>
+            <Heading type="span" size="big">Groucho Design tokens test</Heading>
           </div>
           <div>
             <p>
-              Tokens explanation
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas sed enim ut. Congue eu consequat ac felis donec et. Suspendisse in est ante in. Sagittis eu volutpat odio facilisis mauris sit. A condimentum vitae sapien pellentesque. Tempor id eu nisl nunc mi. Justo eget magna fermentum iaculis eu. Tempor id eu nisl nunc mi ipsum. Leo vel orci porta non. Lacus viverra vitae congue eu consequat ac felis donec. Sit amet facilisis magna etiam tempor orci eu. Turpis in eu mi bibendum neque. Non tellus orci ac auctor. Sit amet tellus cras adipiscing. Vitae turpis massa sed elementum tempus egestas.
             </p>
           </div>
           <div className="form">
             <Button>
-              Button
+              Default button
             </Button>
-          </div>
-          <div className="form">
             <Button secondary>
-              Button
+              Second button
             </Button>
           </div>
         </div>

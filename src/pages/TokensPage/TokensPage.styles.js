@@ -3,7 +3,7 @@ import styled, {createGlobalStyle} from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
   :root {
-    --dark-bg: ${props => props.theme.colors.primary.dark};
+    --dark-bg: ${props => props.theme.colors.primary.light};
     --mark: ${props => props.theme.colors.primary.light};
     --bg: ${props => props.theme.colors.primary.main};
     --manatee: ${props => props.theme.colors.neutral.percent20};
@@ -55,7 +55,9 @@ export const Wrapper = styled.div`
   p {
     display: inline-block;
     font-size: ${props => props.theme.typography.body.normal.fontSize};
+    font-weight: ${props => props.theme.typography.body.normal.fontWeight};
     margin-bottom: 1.5rem;
+    color: ${props => props.theme.colors.neutral.percent80};
   }
 
   table {
@@ -194,9 +196,9 @@ export const Wrapper = styled.div`
   div.wrap {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    align-items: flex-start;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin: 5.5rem 0;
     width: 1366px;
     justify-content: center;
@@ -219,10 +221,8 @@ export const Wrapper = styled.div`
   }
 
   div.form {
-    flex: 1 0 48%;
-    height: auto;
-    order: 2;
-    margin: 0 0 0 1rem;
+    display: flex;
+    flex-direction: row;
   }
 
   div.credits {

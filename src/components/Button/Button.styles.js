@@ -7,7 +7,6 @@ export default css`
   display: flex;
   font-size: ${props => props.theme.typography.body.normal.fontSize};
   line-height: ${props => props.theme.typography.body.normal.lineHeight};
-  font-family: inherit;
   outline: none;
   border: 1px solid transparent;
   padding: ${props => props.theme.spacing.sm} ${props => props.theme.spacing.md};
