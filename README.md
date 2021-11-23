@@ -1,4 +1,4 @@
-# React Design Tokens
+# POC React Design Tokens
 <h4>An awesome design system for your products and experiences!</h4>
 
 ## Built With
