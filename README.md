@@ -14,39 +14,42 @@ We use the best tools to improve our workflow, allowing us to create an awesome 
 # Getting Started
 To get started you need to meet the prerequisites, and then follow the installation instructions.
 
-#### Figma design tokens example
-
-**Figma file:** [https://www.figma.com/file/IGr2xoqcZX91CU7CDr4ZsI](https://www.figma.com/file/IGr2xoqcZX91CU7CDr4ZsI)
-
-#### Installing
-
-You can clone our Git repository:
-
-`$ git clone https://github.com/ERNI-Academy/react-design-tokens.git`
-
-#### Wiring up your development environment
-
-Hooking it up is as easy as running:
-
-`$ npm install`
-
-This command will install all the required dependencies. Please note that `npm install` is only required on your first start, or in case of updated dependencies.
-
-#### Initializing App
-
-`$ npm start`
-
-#### Generate design tokens as variables
-
-`$ npm run tokens`
 ## Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/)
+- [Figma design tokens example](https://www.figma.com/file/IGr2xoqcZX91CU7CDr4ZsI)
+
+## Installation
+
+1. Clone the repo
+   ```sh 
+   git clone https://github.com/ERNI-Academy/poc-frontend-react-design-tokens.git
+   ```
+
+2. Enter to directory
+    ```sh
+    cd poc-frontend-react-design-tokens
+    ```
+   
+3. Install packages
+    ```sh
+    npm install
+    ```
+4. Generate design tokens as variables
+    ```sh
+    npm run tokens
+    ```
+5. Run project
+    ```sh
+    npm start
+    ```
+The app will be oppened in your default browser with localhost:3000
 
 # License
 
-[MIT](LICENSE) © {{ Year }} [ERNI - Swiss Software Engineering](https://www.betterask.erni)
+[MIT](LICENSE) © 2021 [ERNI - Swiss Software Engineering](https://www.betterask.erni)
 
 **Contact:** 
 
-{{ Your Name}}  - [@your_twitter](https://twitter.com/your_username) - your_mail
-@example.com
+* David Carmona Maroto (https://www.linkedin.com/in/davidcarmonamaroto/)
+
