@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "react-app",
+    "react-app/jest",
+    "prettier"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "prettier/prettier": 0,
+    "no-use-before-define": ["off", { "functions": true, "classes": true, "variables": true }],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
