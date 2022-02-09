@@ -2,7 +2,7 @@ import {css} from 'styled-components'
 
 export default css`
   align-items: center;
-  border-radius: 4px;
+  border-radius: ${props => props.theme.radius.rounded};
   cursor: pointer;
   display: flex;
   font-size: ${props => props.theme.typography.body.normal.fontSize};

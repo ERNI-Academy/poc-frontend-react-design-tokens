@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 01 Feb 2022 08:44:13 GMT
+ * Generated on Wed, 09 Feb 2022 15:04:12 GMT
  */
 
 :root {
@@ -17,9 +17,9 @@
   --color-neutral-20: #cccccc;
   --color-neutral-40: #999999;
   --color-neutral-80: #333333;
-  --color-primary-dark: #574191;
-  --color-primary-main: #7356bf;
-  --color-primary-light: #957fce;
+  --color-primary-dark: #1d698f;
+  --color-primary-main: #2587b8;
+  --color-primary-light: #56a4c9;
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-rounded: 100px;

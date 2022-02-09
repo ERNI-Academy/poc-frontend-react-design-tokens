@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 01 Feb 2022 08:44:13 GMT
+ * Generated on Wed, 09 Feb 2022 15:04:12 GMT
  */
 
 export const BreakpointXl = "1460px";
@@ -16,9 +16,9 @@ export const ColorNeutral05 = "#f2f2f2";
 export const ColorNeutral20 = "#cccccc";
 export const ColorNeutral40 = "#999999";
 export const ColorNeutral80 = "#333333";
-export const ColorPrimaryDark = "#574191";
-export const ColorPrimaryMain = "#7356bf";
-export const ColorPrimaryLight = "#957fce";
+export const ColorPrimaryDark = "#1d698f";
+export const ColorPrimaryMain = "#2587b8";
+export const ColorPrimaryLight = "#56a4c9";
 export const RadiusSm = "8px";
 export const RadiusMd = "16px";
 export const RadiusRounded = "100px";

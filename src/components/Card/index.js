@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import {Wrapper} from './Card.styles'
 import Heading from '../Heading'
 
-const Card = ({title, children}) => (
-  <Wrapper>
+const Card = ({container, title, children}) => (
+  <Wrapper container={container}>
     {title && (
       <Heading as="h3" size="big">
         {title}

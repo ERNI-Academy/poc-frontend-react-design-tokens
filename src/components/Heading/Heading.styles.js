@@ -5,7 +5,7 @@ export const Wrapper = styled.h1`
   line-height: ${props => props.theme.typography.heading.normal.lineHeight};
   font-weight: ${props => props.theme.typography.heading.normal.fontWeight};
   margin: 0 0 ${props => props.theme.spacing.md};
-  color: ${props => props.theme.colors.neutral.percent80};
+  color: ${props => props.theme.colors.neutral.percent05};
 
   ${props =>
     props.size === 'big' &&
